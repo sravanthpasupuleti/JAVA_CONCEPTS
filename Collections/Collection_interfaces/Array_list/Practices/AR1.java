@@ -27,3 +27,4 @@ public class AR1 {
     System.out.println(ar2);
     }
 }
+
