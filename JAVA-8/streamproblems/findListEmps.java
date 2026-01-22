@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class findListEmps{
+public class FindListEmps{
     public static void main(String[] args) {
     List<String> emps = new ArrayList<>(Arrays.asList("John", "Alexandra" , "Ben" , "David" , "Sravanth" , "Amy"));
 
