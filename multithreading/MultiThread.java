@@ -16,7 +16,7 @@ class Emp extends Thread{  //thread is a class
 
     @Override
     public void run(){
-        System.out.println("hlo emp thread " + Thread.activeCount());
+        System.out.println("hloooooo emp thread " + Thread.activeCount());
         System.out.println(Thread.currentThread().getName());
     }
 
