@@ -5,11 +5,11 @@ public class MtSecondType{
         System.out.println(Thread.currentThread().getName());
 
         Emps obj = new Emps();
-        Thread t1 = new Thread(obj);
+        Thread t1 = new Thread(obj, "emps");
         t1.start();
 
         Work obj2 = new Work();
-        Thread th = new Thread(obj2);
+        Thread th = new Thread(obj2, "work");
         th.start();
 
         System.out.println(Thread.activeCount());
